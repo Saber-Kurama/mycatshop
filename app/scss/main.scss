@@ -1,0 +1,18 @@
+@import "../../node_modules/material-ui-sass/material-ui";
+.app .saber-toolbar{
+	background-color:#00bcd4 ;
+}
+.app {
+	.navbar-brand{
+		height: 56px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+	.navbar-nav>li>a{
+		padding-bottom:18px;
+		padding-top:18px;
+		&.active{
+			background-color:#eee;
+		}
+	}
+}
